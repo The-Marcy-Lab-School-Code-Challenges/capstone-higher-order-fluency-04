@@ -3,7 +3,7 @@
 ## Instructions
 
 1. Clone down this assignment to your `code-challenges' directory in AWS Cloud9.  
-2. Code your solution using JavaScript in `index.js`. 
+2. Create a new file in the repo called `index.js` and code your solutions there. 
 3. **Be sure to run and test your code throughly!**
 4. By the end of Code Challenge, **commit regularly and push your changes up to Github**.
 5. Using the browser, verify that your solution is in your remote repo on Github.
@@ -147,4 +147,18 @@ const alumni = [
     
     ```jsx
     averageAge(alumni) // 22
+    ```
+ 5. Write a function named `ninetiesBabies` that takes an array of objects and returns an array of only the objects where the age property is larger than 21.
+    
+    ```jsx
+    ninetiesBabies(alumni) // returns [
+      { name: 'Jarrit', job: 'TPT', language: 'JavaScript', age: 22 },
+      { name: 'Devonte', job: 'WW', language: 'JavaScript', age: 23 },
+      { name: 'Shemar', job: 'SquareSpace', language: 'JavaScript', age: 23 }
+    ]
+    ```
+  6. Write a function named `allUseJavaScript` that takes an array of objects and returns a boolean if for every object, the language property is 'JavaScript'.
+    
+    ```jsx
+    allUseJavaScript(alumni) // returns true
     ```
